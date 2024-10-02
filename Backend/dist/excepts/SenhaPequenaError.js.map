@@ -1,0 +1,1 @@
+{"version":3,"file":"SenhaPequenaError.js","sourceRoot":"","sources":["../../src/excepts/SenhaPequenaError.ts"],"names":[],"mappings":";;;AAAA,MAAa,iBAAkB,SAAQ,KAAK;IAI1C;QACE,KAAK,CAAC,qCAAqC,CAAC,CAAC;QAC7C,IAAI,CAAC,IAAI,GAAG,aAAa,CAAC;QAC1B,IAAI,CAAC,UAAU,GAAG,GAAG,CAAC;IACxB,CAAC;IAED,QAAQ;QACN,OAAO;;;MAGL,CAAA;IACJ,CAAC;CACF;AAhBD,8CAgBC"}

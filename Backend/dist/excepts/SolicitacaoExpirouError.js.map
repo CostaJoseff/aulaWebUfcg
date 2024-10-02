@@ -1,0 +1,1 @@
+{"version":3,"file":"SolicitacaoExpirouError.js","sourceRoot":"","sources":["../../src/excepts/SolicitacaoExpirouError.ts"],"names":[],"mappings":";;;AAAA,MAAa,uBAAwB,SAAQ,KAAK;IAIhD;QACE,KAAK,CAAC,mDAAmD,CAAC,CAAC;QAC3D,IAAI,CAAC,IAAI,GAAG,cAAc,CAAC;QAC3B,IAAI,CAAC,UAAU,GAAG,GAAG,CAAC;IACxB,CAAC;IAED,QAAQ;QACN,OAAO;;;MAGL,CAAA;IACJ,CAAC;CACF;AAhBD,0DAgBC"}

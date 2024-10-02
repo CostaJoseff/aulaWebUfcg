@@ -1,0 +1,1 @@
+{"version":3,"file":"NaoEhEmailError.js","sourceRoot":"","sources":["../../src/excepts/NaoEhEmailError.ts"],"names":[],"mappings":";;;AAAA,MAAa,eAAgB,SAAQ,KAAK;IAItC,YAAY,KAAa;QACvB,KAAK,CAAC,GAAG,KAAK,4BAA4B,CAAC,CAAC;QAC5C,IAAI,CAAC,IAAI,GAAG,aAAa,CAAC;QAC1B,IAAI,CAAC,UAAU,GAAG,GAAG,CAAC;IACxB,CAAC;IAED,QAAQ;QACN,OAAO;;;QAGL,CAAC;IACL,CAAC;CACF;AAhBH,0CAgBG"}

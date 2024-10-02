@@ -1,0 +1,1 @@
+{"version":3,"file":"EnvioDeEmailError.js","sourceRoot":"","sources":["../../src/excepts/EnvioDeEmailError.ts"],"names":[],"mappings":";;;AAAA,2CAA+C;AAE/C,MAAa,iBAAkB,SAAQ,sBAAa;IAElD;QACE,KAAK,CAAC;YACJ,OAAO,EAAE,uBAAuB;YAChC,UAAU,EAAE,GAAG;SAChB,EAAE,GAAG,CAAC,CAAC;IACV,CAAC;IAED,QAAQ;QACN,OAAO;;;MAGL,CAAC;IACL,CAAC;CAEF;AAhBD,8CAgBC"}

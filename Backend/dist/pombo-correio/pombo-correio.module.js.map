@@ -1,0 +1,1 @@
+{"version":3,"file":"pombo-correio.module.js","sourceRoot":"","sources":["../../src/pombo-correio/pombo-correio.module.ts"],"names":[],"mappings":";;;;;;;;;AAAA,2CAAwC;AACxC,mEAA8D;AAQvD,IAAM,kBAAkB,GAAxB,MAAM,kBAAkB;CAAG,CAAA;AAArB,gDAAkB;6BAAlB,kBAAkB;IAJ9B,IAAA,eAAM,EAAC;QACJ,SAAS,EAAE,CAAC,2CAAmB,CAAC;QAChC,OAAO,EAAE,CAAC,2CAAmB,CAAC;KACjC,CAAC;GACW,kBAAkB,CAAG"}

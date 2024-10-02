@@ -1,0 +1,80 @@
+generator client {
+  provider = "prisma-client-js"
+  binaryTargets = ["native", "debian-openssl-3.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model AlterarEmailPendente {
+  id String @id
+  matricula String
+  novoEmail String @unique
+  validade DateTime
+
+  @@index([matricula])
+  @@index([novoEmail])
+}
+
+model Usuario {
+  id Int @id @default(autoincrement())
+  dataDeCriacao DateTime? @default(now())
+  nome String
+  matricula String @unique
+  cpf String @unique
+  email String @unique
+  senha String
+  criacaoFinalizada Boolean @default(false)
+  codigoVerificacao String?
+  token String?
+  relatorios Relatorio[]
+
+  @@index([cpf])
+  @@index([email])
+  @@index([matricula])
+}
+
+model Relatorio {
+  id Int @id @default(autoincrement())
+  dataDeExecucao DateTime @default(now())
+  url String?
+  status StatusRelatorio @default(EM_FILA)
+  tabela String?
+  posicaoNaFila Int
+  usuarioMatricula String
+  usuario Usuario @relation(fields: [usuarioMatricula], references: [matricula])
+  linhas Linha[]
+}
+
+enum StatusRelatorio {
+  EM_FILA
+  EM_EXECUCAO
+  CONCLUIDO
+  ERRO
+  USUARIO_DELETADO
+}
+
+model Linha {
+  id Int @id @default(autoincrement())
+  nome String
+  coordenadas Float[]
+  direcao Direcao
+  cor Int[] @default([255, 255, 255])
+  carros Int
+  motos Int
+  onibus Int
+  caminhoes Int
+  vans Int
+  relatorioId Int
+  relatorio Relatorio @relation(fields: [relatorioId], references: [id])
+
+}
+
+enum Direcao {
+  CIMA_BAIXO
+  BAIXO_CIMA
+  DIREITA_ESQUERDA
+  ESQUERDA_DIREITA
+}

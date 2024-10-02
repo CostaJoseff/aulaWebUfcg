@@ -1,0 +1,4 @@
+dados {
+	linhas: [{x1, y1, x2, y2, nome, cor(RGB) contador{moto, carro, onibus, van, caminhão}]
+	tabela: start_x, start_y, end_x, end_y, line_height, column_width, num_rows
+}

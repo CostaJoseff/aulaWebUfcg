@@ -1,0 +1,1 @@
+{"version":3,"file":"CodigoNaoValidadoError.js","sourceRoot":"","sources":["../../src/excepts/CodigoNaoValidadoError.ts"],"names":[],"mappings":";;;AAAA,MAAa,sBAAuB,SAAQ,KAAK;IAI7C;QACE,KAAK,CAAC,2CAA2C,CAAC,CAAC;QACnD,IAAI,CAAC,IAAI,GAAG,WAAW,CAAC;QACxB,IAAI,CAAC,UAAU,GAAG,GAAG,CAAC;IACxB,CAAC;IAED,QAAQ;QACN,OAAO;;;QAGL,CAAA;IACJ,CAAC;CACF;AAhBH,wDAgBG"}

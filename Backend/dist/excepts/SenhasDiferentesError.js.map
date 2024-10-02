@@ -1,0 +1,1 @@
+{"version":3,"file":"SenhasDiferentesError.js","sourceRoot":"","sources":["../../src/excepts/SenhasDiferentesError.ts"],"names":[],"mappings":";;;AAAA,MAAa,qBAAsB,SAAQ,KAAK;IAI9C;QACE,KAAK,CAAC,kEAAkE,CAAC,CAAC;QAC1E,IAAI,CAAC,IAAI,GAAG,aAAa,CAAC;QAC1B,IAAI,CAAC,UAAU,GAAG,GAAG,CAAC;IACxB,CAAC;IAED,QAAQ;QACN,OAAO;;;MAGL,CAAA;IACJ,CAAC;CACF;AAhBD,sDAgBC"}
