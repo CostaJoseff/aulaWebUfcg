@@ -1,0 +1,23 @@
+.bolinha {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+.tabela {
+  background-color: whitesmoke;
+  width: 100%;
+}
+
+.tabela > * {
+  text-align: center;
+}
+
+th, td {
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+}

@@ -1,0 +1,17 @@
+.header {
+    display: block;
+    background-color: burlywood;
+    border-radius: 25px;
+}
+
+.area {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.naveg {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}

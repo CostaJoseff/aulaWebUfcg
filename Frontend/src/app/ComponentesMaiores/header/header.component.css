@@ -1,0 +1,12 @@
+.area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    margin: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: rgba(0, 0, 0, 0.322);
+    border-radius: 10px;
+}

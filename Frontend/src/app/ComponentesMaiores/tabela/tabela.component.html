@@ -1,0 +1,19 @@
+<table class="tabela">
+    <thead>
+      <tr>
+        <th>COR</th>
+        <th>NOME</th>
+        <th>DIRECAO</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of itens">
+        <td>
+            <span class="bolinha" [ngStyle]="{'background-color': item.cor}"></span>
+          </td>
+        <td>{{ item.nome }}</td>
+        <td>{{ item.direcao }}</td>
+      </tr>
+    </tbody>
+  </table>
+  
